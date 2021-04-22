@@ -1,0 +1,28 @@
+<br><br>
+<form [formGroup]="productForm">
+    <div class="row">
+        <div class="col">
+            <input type="text" name="pid" class="form-control" formControlName="pid" placeholder="Product Id">
+        </div>
+        <div class="col">
+            <input type="text" name="pname" class="form-control" formControlName="name" placeholder="Product Name">
+        </div>
+    </div><br>
+    <div>
+        <img src="">
+    </div>
+    <div>
+        <textarea name="des" class="form-control" formControlName="des" placeholder="Description"></textarea>
+    </div><br>
+    <div class="row">
+        <div class="col">
+            <input type="text" name="price" class="form-control" formControlName="price" placeholder="Product Price">
+        </div>
+        <div class="col">
+            <input type="text" name="qnty" class="form-control" formControlName="qnty" placeholder="Quantity">
+        </div>
+    </div><br>
+    <div>
+        <input type="submit" (click)="add()" value="add" class="btn btn-primary">
+    </div>
+</form>

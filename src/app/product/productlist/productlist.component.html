@@ -1,0 +1,22 @@
+
+<table >
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Image</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Quantity</th>
+    </tr>
+    
+    <tr *ngFor="let product of product_list">
+        <td>{{product.pid}}</td>
+        <td>{{product.name}}</td>
+        <td><img [src]="product.path" alt="{{product.path}}"></td>
+        <td>{{product.des}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.qnty}}</td>
+    </tr>
+    
+</table>
+

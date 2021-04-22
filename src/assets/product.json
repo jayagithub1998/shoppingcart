@@ -1,0 +1,6 @@
+[
+    {"pid":101,"name":"Book","price":100,"des":"A book is a medium for recording information in the form of writing or images, typically composed of many pages (made of papyrus, parchment, vellum, or paper) bound together and protected by a cover. The technical term for this physical arrangement is codex (plural, codices).","qnty":0,"path":"../assets/book.jfif"},
+    {"pid":102,"name":"Pen","price":150,"des":"A pen is a common writing instrument used to apply ink to a surface, usually paper, for writing or drawing. Historically, reed pens, quill pens, and dip pens were used, with a nib dipped in ink.","qnty":0,"path":"../assets/pen.jfif"},
+    {"pid":103,"name":"Pencil","price":10,"des":"A pencil (also called: graphite pencil) is a writing utensil with a graphite lead embedded in a wooden shaft. It is mainly used for artistic sketching and drawing, for stenography or notes. Its benefits are the simple usage as well as being able to remove what you've drawn with an eraser.","qnty":0,"path":"../assets/pencil.jfif"},
+    {"pid":104,"name":"Box","price":200,"des":"A pencil case or pencil box is a container used to store pencils. A pencil case can also contain a variety of other stationery such as sharpeners, pens, glue sticks, erasers, scissors, rulers and calculators.","qnty":0,"path":"../assets/box.jfif"}
+]
